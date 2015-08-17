@@ -13,12 +13,8 @@
 
 //Methods
 
-
-+(int) calculateArea{
-    return self.totalArea;
-}
-
--(int) totalArea{
+-(int) calculateArea
+{
     return self.width * self.height;
 }
 

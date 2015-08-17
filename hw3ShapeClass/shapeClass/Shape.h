@@ -11,14 +11,14 @@
 @interface Shape : NSObject
 
 //Data
-@property (nonatomic) int width;
+@property (nonatomic)int width;
 @property (nonatomic)int height;
 
 
 //Methods
 
-+(int)calculateArea;
--(int)totalArea;
+-(int)calculateArea;
+
 
 
 
